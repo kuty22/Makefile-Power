@@ -22,7 +22,7 @@
   run example:
   ```shell
   ➜  Create-file git:(master) ✗ make
-  echo "root:" 								> .user-config.yml
+  echo "root:"                > .user-config.yml
   echo "	id:"20 	>> .user-config.yml
   echo "	roles:" 						>> .user-config.yml
   echo "	- admin:" 					>> .user-config.yml
