@@ -1,0 +1,14 @@
+version: "2"
+services:
+#### trading bot module ####
+  service_1:
+    build:
+      context: ./
+    command: "python script_1.py"
+
+  service_2:
+    build: ./
+    command: "python script_2.py"
+
+volumes:
+  data:
